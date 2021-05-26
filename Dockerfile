@@ -12,3 +12,4 @@ RUN wget http://ccl.northwestern.edu/netlogo/6.1.1/NetLogo-6.1.1-64.tgz \
     && rm -f NetLogo-6.1.1-64.tgz \
     && mv NetLogo\ 6.1.1 /opt/nl
 
+RUN export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 
