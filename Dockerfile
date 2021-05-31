@@ -3,6 +3,7 @@ RUN apt update \
   && apt dist-upgrade -y  \
   && apt-get install -y --no-install-recommends \
      libzmq3-dev \
+     libxml2 \
      wget
 RUN install2.r --error \
      clustermq \
